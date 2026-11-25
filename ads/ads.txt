@@ -1,0 +1,2 @@
+# Paste ads.txt lines from AdSense / Adsterra / Monetag here (one per line), e.g.:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

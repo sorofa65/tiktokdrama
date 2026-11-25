@@ -1,0 +1,13 @@
+<!-- title: Contact Us | desc: Contact {{NAME}} for support, broken links, takedown requests, advertising and business enquiries. -->
+<h1>Contact Us</h1>
+<p>We usually reply within 2–3 business days. For copyright complaints please also read our <a href="/dmca/">DMCA page</a>.</p>
+<form class="cform" name="contact" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact">
+  <p hidden><label>Do not fill this: <input name="bot-field"></label></p>
+  <label>Your name<input name="name" required maxlength="80" autocomplete="name"></label>
+  <label>Email<input type="email" name="email" required maxlength="120" autocomplete="email"></label>
+  <label>Subject<select name="subject"><option>General question</option><option>Broken link / wrong info</option><option>Copyright / takedown</option><option>Advertising / partnership</option><option>Other</option></select></label>
+  <label>Message<textarea name="message" rows="6" required maxlength="2000"></textarea></label>
+  <button class="b p" type="submit">Send message</button>
+</form>
+<p>Or email us directly: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>
